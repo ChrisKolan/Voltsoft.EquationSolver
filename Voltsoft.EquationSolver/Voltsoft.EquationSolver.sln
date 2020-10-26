@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltsoft.QuadraticEquationSolver", "Voltsoft.QuadraticEquationSolver\Voltsoft.QuadraticEquationSolver.csproj", "{E55A0DF4-9DDB-47EE-B566-7541C3671225}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voltsoft.QuadraticEquationSolver", "Voltsoft.QuadraticEquationSolver\Voltsoft.QuadraticEquationSolver.csproj", "{E55A0DF4-9DDB-47EE-B566-7541C3671225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltsoft.EquationSolver", "Voltsoft.EquationSolver\Voltsoft.EquationSolver.csproj", "{3868E276-6A16-452C-B453-C628397C7FA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E55A0DF4-9DDB-47EE-B566-7541C3671225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E55A0DF4-9DDB-47EE-B566-7541C3671225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E55A0DF4-9DDB-47EE-B566-7541C3671225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3868E276-6A16-452C-B453-C628397C7FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3868E276-6A16-452C-B453-C628397C7FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3868E276-6A16-452C-B453-C628397C7FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3868E276-6A16-452C-B453-C628397C7FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

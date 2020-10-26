@@ -4,9 +4,9 @@ namespace Voltsoft.QuadraticEquationSolver
 {
     public class Solver
     {
-        private double _CoefficientA;
-        private double _CoefficientB;
-        private double _CoefficientC;
+        private readonly double _CoefficientA;
+        private readonly double _CoefficientB;
+        private readonly double _CoefficientC;
 
         public Solver(double coefficientA, double coefficientB, double coefficientC)
         {
@@ -29,7 +29,7 @@ namespace Voltsoft.QuadraticEquationSolver
             }
             if (discriminant < 0)
             {
-                return TwoComplexRoots.Solution(_CoefficientA, _CoefficientB, _CoefficientC, discriminant);
+                return TwoComplexRoots.Solution(_CoefficientA, _CoefficientB, _CoefficientC);
             }
 
             return null;

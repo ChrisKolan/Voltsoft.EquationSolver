@@ -4,7 +4,7 @@ namespace Voltsoft.QuadraticEquationSolver
 {
     internal static class TwoComplexRoots
     {
-        internal static Solution Solution(double coefficientA, double coefficientB, double coefficientC, double discriminant)
+        internal static Solution Solution(double coefficientA, double coefficientB, double coefficientC)
         {
             var real = -coefficientB / (2 * coefficientA);
             var imaginary = (Math.Sqrt(4 * coefficientA * coefficientC - coefficientB * coefficientB)) / (2 * coefficientA);

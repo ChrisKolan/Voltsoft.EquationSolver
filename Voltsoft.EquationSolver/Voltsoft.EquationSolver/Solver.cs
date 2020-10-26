@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Voltsoft.EquationSolver
+namespace Voltsoft.QuadraticEquationSolver
 {
     public class Solver
     {
@@ -15,21 +15,21 @@ namespace Voltsoft.EquationSolver
             _CoefficientC = coefficientC;
         }
 
-        public QuadraticSolution FindQuadraticRoots()
+        public Solution FindQuadraticRoots()
         {
-            var discriminant = QuadraticDiscriminant.Discriminant(_CoefficientA, _CoefficientB, _CoefficientC);
+            var discriminant = Discriminant.Calculate(_CoefficientA, _CoefficientB, _CoefficientC);
 
             if (discriminant == 0)
             {
-                return QuadraticOneRoot.Solution(_CoefficientA, _CoefficientB, discriminant);
+                return OneRoot.Solution(_CoefficientA, _CoefficientB, discriminant);
             }
             if (discriminant > 0)
             {
-                return QuadraticTwoRoots.Solution(_CoefficientA, _CoefficientB, discriminant);
+                return TwoRoots.Solution(_CoefficientA, _CoefficientB, discriminant);
             }
             if (discriminant < 0)
             {
-                return QuadraticTwoComplexRoots.Solution(_CoefficientA, _CoefficientB, _CoefficientC, discriminant);
+                return TwoComplexRoots.Solution(_CoefficientA, _CoefficientB, _CoefficientC, discriminant);
             }
 
             return null;

@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Voltsoft.EquationSolver
+namespace Voltsoft.QuadraticEquationSolver
 {
-    internal static class QuadraticTwoComplexRoots
+    internal static class TwoComplexRoots
     {
-        internal static QuadraticSolution Solution(double coefficientA, double coefficientB, double coefficientC, double discriminant)
+        internal static Solution Solution(double coefficientA, double coefficientB, double coefficientC, double discriminant)
         {
             var real = -coefficientB / (2 * coefficientA);
             var imaginary = (Math.Sqrt(4 * coefficientA * coefficientC - coefficientB * coefficientB)) / (2 * coefficientA);
 
-            return new QuadraticSolution
+            return new Solution
             {
                 FirstRoot = null,
                 SecondRoot = null,

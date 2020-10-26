@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Numerics;
-using System.Text;
+﻿using System.Numerics;
 
-namespace Voltsoft.EquationSolver
+namespace Voltsoft.QuadraticEquationSolver
 {
-    public class QuadraticSolution
+    public class Solution
     {
         public double? FirstRoot { get; set; }
         public double? SecondRoot { get; set; }

@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Voltsoft.EquationSolver
+namespace Voltsoft.QuadraticEquationSolver
 {
-    internal static class QuadraticOneRoot
+    internal static class OneRoot
     {
-        internal static QuadraticSolution Solution(double coefficientA, double coefficientB, double discriminant)
+        internal static Solution Solution(double coefficientA, double coefficientB, double discriminant)
         {
             double root = ((-coefficientB - Math.Sqrt(discriminant)) / (2 * coefficientA));
 
-            return new QuadraticSolution
+            return new Solution
             {
                 FirstRoot = root,
                 SecondRoot = null,

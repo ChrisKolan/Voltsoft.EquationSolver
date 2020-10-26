@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltsoft.EquationSolver", "Voltsoft.EquationSolver\Voltsoft.EquationSolver.csproj", "{E55A0DF4-9DDB-47EE-B566-7541C3671225}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltsoft.QuadraticEquationSolver", "Voltsoft.EquationSolver\Voltsoft.QuadraticEquationSolver.csproj", "{E55A0DF4-9DDB-47EE-B566-7541C3671225}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
